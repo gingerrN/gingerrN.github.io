@@ -69,9 +69,22 @@ a{
 /*конец общие*/
 
 /* начало разметка центральные блоки*/
+html {
+  height:100%;
+}
+body{
+  height:auto !important;
+  height:100%;
+  min-height:100%;
+}
 .b-content{
-	margin: 0 auto;
+	margin: 0 auto ;
+	padding-top: 40px;
 	width: 1060px;
+  	height:100% ;
+  	min-height:100% !important;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
 }
 .b-inContent{
 	margin: 0 auto;
@@ -80,7 +93,7 @@ a{
 /*конец разметка центральные блоки*/
 /*начало блока Fitness*/
 .b-header{
-	margin: 40px 0 30px 0;
+	margin: 0 0 30px 0;
 }
 .b-header__link{
 	font-size: 40px;
