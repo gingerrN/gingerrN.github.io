@@ -1,0 +1,170 @@
+﻿/* общие*/
+@font-face {
+	font-family: 'OpenSansRegular';
+	src: url('../css/fonts/OpenSansRegular.eot');
+	src: local('OpenSansRegular'), url('../css/fonts/OpenSansRegular.woff') format('woff'), url('./OpenSansRegular.ttf') format('truetype');
+}
+.b-cell2, .b-cell3{
+	margin-right: 40px;
+}
+.b-partition2, .b-partition3, .b-partition4{
+	margin-left: 93px;
+}
+.b-cell2, .b-cell3{
+	margin-right: 40px;
+}
+.b-headerMenu__item, .b-bottomMenu__item{
+	display: inline-block;
+}
+.b-header__link, .b-headerMenu__link,.b-headerMenu__item_curent, .b-leftMenu__item_curent,.b-leftMenu__link, .b-text,.b-bottomMenu__item, .b-bottomMenu__item_curent, .b-bottomMenu__link{
+	font-family: 'OpenSansRegular',Helvetica, Arial,  sans-serif !important;
+}
+.b-headerMenu__link, .b-headerMenu__item_curent{
+	display: block;
+	padding: 0 23px;
+	height: 40px;
+	color: #fff;
+	font-weight: bold;
+	border-left: 1px solid #5b5b5b;
+	border-right: 1px solid #5b5b5b;
+}
+.b-headerMenu__link:hover, .b-headerMenu__item_curent{
+	background-color: #444444;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+.b-Menu, .b-bottomMenu{
+	font-size: 0;
+	height: 40px;
+	line-height: 40px;
+}
+.b-headerMenu__item_curent,.b-headerMenu__link{
+	font-size: 14.5px;
+}
+.b-leftMenu__item_curent,.b-leftMenu__link, .b-text, .b-bottomMenu__item, .b-bottomMenu__item_curent, .b-bottomMenu__link{
+	font-size: 13.3px;
+}
+.b-bottomMenu__item, .b-bottomMenu__link{
+	color: #515151;
+}
+.b-leftMenu__item_curent,.b-leftMenu__link{
+	color: #656363;
+}
+.b-leftMenu__item_curent,.b-leftMenu__link:hover{
+	padding-left: 14px;
+	color: #000;
+}
+.b-headerMenu__link:hover, .b-leftMenu__link:hover, .b-bottomMenu__link:hover{
+	color: #f686d2;
+}
+a{
+	text-decoration: none;
+}
+.b-bottomMenu__item_curent, .b-bottomMenu__link:hover{
+	text-decoration: underline;
+}
+.b-clear{
+	clear: both;
+}
+/*конец общие*/
+
+/* начало разметка центральные блоки*/
+html {
+  height:100%;
+}
+body{
+
+  height:100%;
+  min-height:100%;
+}
+.b-content{
+	margin: 0 auto ;
+	padding-top: 40px;
+	width: 1060px;
+  	height:100% ;
+  	min-height:100% !important;
+	border-left: 1px solid #dbdbdb;
+	border-right: 1px solid #dbdbdb;
+}
+.b-inContent{
+	margin: 0 auto;
+	width: 967px;
+}
+/*конец разметка центральные блоки*/
+/*начало блока Fitness*/
+.b-header{
+	margin: 0 0 30px 0;
+}
+.b-header__link{
+	font-size: 40px;
+	color: #2b2b2b;
+}
+/*конец блока Fitness*/
+/*начало блока верхнее горизонтальное меню*/
+.b-Menu{
+	background-color: #5b5b5b;
+}
+.b-cell1{
+	margin: 0 40px 0 2px;
+}
+/*конец блока верхнее горизонтальное меню*/
+
+/*начало центрального блока Товары и Товар+Описание*/
+.b-center{
+	margin:40px 1px 60px 1px;
+}
+/*начало левого блока Товары*/
+.b-goods{
+	float: left;
+	width: 238px;
+	border:1px solid #c8c8c8;
+}
+.b-leftMenu{
+	margin: 0;
+	padding: 0;
+}
+.b-leftMenu__item{
+	padding-left: 21px;
+	height: 39px;
+	line-height: 39px;
+}
+.b-line{
+	border-bottom:1px solid #c8c8c8;
+}
+
+/*конец левого блока Товары*/
+/*начало правого блока Товар+ Описание*/
+.b-product{
+	float: right;
+	width: 678px;
+}
+.b-photo{						/*картинка*/
+	border:1px solid #c8c8c8;
+}
+.b-img{							/*картинка*/
+	display: block;
+	padding: 54px 96px 53px 96px;
+}
+.b-description{					/*текст*/
+	padding: 39px 28px  0 24px;
+}
+.b-text{					   /*текст*/
+	line-height: 22px;
+}
+/*конец правого блока Товар+ Описание*/
+/*конец центрального блока Товары и Товар+Описание*/
+
+/*начало нижнего блока  горизонтальное меню*/
+.b-bottomMenu{
+	padding: 0;
+	background-color: #e1e1e1;
+}
+.b-partition1{
+	margin-left: 25px;
+}
+.b-partition5{
+	margin: 0 26px 0 273px;
+}
+/*конец нижнего блока  горизонтальное меню*/
+/**/
+

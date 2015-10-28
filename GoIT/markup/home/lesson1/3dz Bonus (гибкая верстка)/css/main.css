@@ -1,0 +1,131 @@
+﻿/* общие*/
+*{
+	color: #fff;
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+a{
+	text-decoration: none;
+}
+html {
+  height:100%;
+}
+body{
+	height:100%;
+  	min-height:100%;
+	background: #000
+				url(../img/background.png) no-repeat center center fixed;
+				-moz-background-size: 100%; /* Firefox 3.6+ */
+    			-webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    			-o-background-size: 100%; /* Opera 9.6+ */
+    			background-size: 100%; /* Современные браузеры */
+}
+.b-contacts, .b-logo__link, .b-footer{
+		font-size: 11px;
+}
+.b-clear{
+	clear: both;
+}
+/*конец общие*/
+/*начало  основного блока*/
+.b-conteiner{
+	margin: 0 auto;
+	position: relative;
+	max-width: 823px !important;
+	height: 100%;
+	min-height:100% !important;
+}
+/*начало  блока шапка*/
+/*начало  блока лого*/
+.b-logo{
+	float: left;
+	width: 266px;
+	height: 147px;
+	background: url(../img/logo.png) ;
+}
+.b-logotext{
+	padding-top: 122px;
+}
+.b-logo__link{
+	display: block;
+	text-align: center;
+}
+/*конец  блока лого*/
+/*начало  блока контакты*/
+.b-contacts{
+	padding: 0 0 15px 10px;
+	line-height: 1.5;
+}
+/*конец  блока контакты-*/
+/*конец  блока шапка*/
+/*начало  блока страны*/
+.b-contries{
+	font-size: 0;
+}
+/*начало  блока первая линия*/
+.b-lineInBlock{
+	display: inline-block;
+}
+.b-contriesLink:hover{
+	text-decoration: underline;
+}
+.b-contriesText{
+	font-size: 15px;
+	text-align: center;
+}
+/*конец  блока первая линия*/
+/*начало  блока вторая линия*/
+/*конец  блока вторая линия*/
+/*конец  блока страны*/
+
+/*начало  блока footer*/
+.b-footer{
+	padding: 20px 0 16px 0;
+	width: 100%;
+}
+/*конец  основного footer*/
+/*конец  основного блока*/
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/*блок для моб.*/
+	.forMob{
+	margin: 0 auto;
+	width: 270px;
+	}
+
+@media only screen and (min-width: 600px) {
+	.b-head{				/*блок шапка*/
+	padding-top: 56px;
+	}
+	.b-contacts{			/*блок контакты в шапке*/
+	padding: 83px 17px 16px 0;
+	float: right;
+	}
+	.b-secondLine{			/*блок вторая линия стран*/
+	margin-top: 49px;
+	}
+	.b-sriLanka, .b-nepal{	/*блоки страны*/
+	margin: 0 6px;
+	}
+	.b-footer{				/*блок footer*/
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 30px;
+	text-align: center;
+	}
+	.forMob{				/*блок для моб., убрать условия*/
+	margin: 0 auto;
+	width: inherit;
+	}
+}
