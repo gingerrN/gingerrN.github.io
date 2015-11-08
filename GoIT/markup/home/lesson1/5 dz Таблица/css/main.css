@@ -1,0 +1,150 @@
+﻿/* общие*/
+@import url(https://fonts.googleapis.com/css?family=Roboto:700&subset=latin,cyrillic);
+html {
+  height:100%;
+}
+body {
+	height:100%;
+  	min-height:100%;
+ }
+.for__position{
+	position: relative;
+	height: 100%;
+	min-height:100%;
+}
+.big__conteiner{
+	margin-top: -268px;/* half of #content height*/
+	position: absolute;
+	top: 50%;
+	left: 0;
+	height: 536px;
+	width: 100%;
+}
+.conteiner{
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+.clearfix:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.table1,
+.table1{
+	float: left;
+}
+.table1{
+	float: left;
+}
+.table2{
+	float: right;
+}
+header{
+	margin-top: 20px;
+	display: block;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: center;
+}
+table {
+	border-collapse: collapse;
+}
+tr,
+td {
+	border: 5px solid #000;
+}
+
+
+/* таблица 7x9*/
+.block6,
+.block39,
+.block51 {
+	width: 100px;
+}
+.block28 {
+	height: 100px;
+}
+.blockl13,
+.block39,
+.block46,
+.block53,
+.block60 {
+	height: 50px; 
+}
+.block6,
+.block13,
+.block43 {
+	background-color: #ffe858;
+}
+.block37,
+.block53 {
+	background-color: #202020;
+}
+.block1 {
+	height: 50px;
+}
+.block8 {
+	width: 50px;
+}
+.block9 {
+	width: 200px;
+	height: 200px;
+}
+.block9 {
+	background-color: #ff5f41;
+}
+.block48 {
+	background-color: #0c407a;
+}
+
+
+/* таблица 6x7*/
+.cell5,
+.cell22,
+.cell28,
+.cell32,
+.cell34  {
+	width: 100px;
+}
+.cell1,
+.cell22,
+.cell23,
+.cell28,
+.cell34,
+.cell40 {
+	height: 50px;
+}
+.cell7,
+.cell17,
+.cell18 {
+	height: 100px;
+}
+.cell20,
+.cell34 {
+	background-color: #202020;
+}
+.cell7 {
+	width: 50px;
+}
+.cell3 {
+	width: 150px;
+}
+.cell5 {
+	background-color: #ffe858;
+}
+.cell8 {
+	background-color: #ff5f41;
+}
+
+.cell11 {
+	background-color: #ffe858;
+}
+.cell25 {
+	background-color: #ffe858;
+}
+.cell29 {
+	background-color: #0c407a;
+}
+

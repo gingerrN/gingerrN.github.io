@@ -1,0 +1,261 @@
+﻿/* общие*/
+.b-horizontal2:after, 
+.b-horizontal3:after, 
+.b-horizontal4:after {
+	padding-left: 9px;
+	content: "▼";
+	font-size: 10px;
+}
+.b-contentInfo__link {
+	padding-left: 15px;
+	color: #424c43;
+}
+.b-mainMenu__item:hover, 
+.b-smallMenu__item:hover {
+	display: block;
+	background: #4c4c4c;
+}
+.b-logo__link, 
+.b-contriesLink {
+	display: block;
+	text-align: center;
+}
+.b-contentInfo, 
+.b-contentCenter {
+	float: left;
+}
+.b-contentInfo, 
+.b-contentNews {
+	width: 208px;
+	background-color: #edeef0;
+	border: 1px solid #c7cacf;
+}
+*, 
+body, 
+a {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+}
+.b-mainMenu__link, 
+.b-smallMenu__link,
+.b-contentInfo__link {
+	font-size: 14px;
+}
+.b-logo__link, 
+.b-contacts_item,
+.b-footer {
+	font-size: 12px;
+}
+.b-mainMenu__link, 
+.b-smallMenu__link,
+.b-footer {
+	color: #fff;
+}
+.b-head, 
+.b-logo__link, 
+.b-contriesLink  {
+	color: #128aa7;
+}
+.b-logo__link, 
+.b-mainMenu__link, 
+.b-smallMenu__link,
+.b-contentInfo__link {
+	text-decoration: none;
+}
+.b-mainMenu__link:hover, 
+.b-smallMenu__link:hover,
+.b-contentInfo__link:hover {
+	text-decoration: underline;
+}
+.b-info1, 
+.b-info2,
+.b-news1,
+.b-news2 {
+	border-bottom: 1px solid #c7cacf;
+}
+.b-head, 
+.b-content {
+	background-color: #fff;
+}
+body {
+	background: #0c739f 
+				url(../img/background.png) left top repeat-x
+}
+.b-clear {
+	clear: both;
+}
+/*конец общие*/
+/*начало основного блока*/
+.b-conteiner {
+	margin: 0 auto;
+	width: 1000px;
+	height: 100%;
+	min-height:100%;
+}
+.b-emptyPart {
+	height: 38px;
+}	
+/*блок шапка*/
+/*блок лого*/
+.b-logo {
+	float: left;
+	width: 283px;
+	height: 164px;
+	background: url(../img/logo.png) ;
+}
+.b-logotext {
+	padding-top: 111px;
+}
+.b-logo__link {
+	font-size: 12px;
+}
+/*контакты + флаги правого блока шапки */
+.b-rightHead {
+	padding: 11px 33px 9px 0;
+	float: right;
+}
+.b-contacts {		/*блок шапки контакты*/
+	padding: 0 0 33px 223px;
+}
+.b-item_top1 {
+	padding-top: 9px;
+}
+.b-item_top2 {
+	padding-top: 5px;
+}
+.b-lineInBlock{			/*блок шапки флаги*/
+	display: inline-block;
+}
+.b-contriesLink {
+	font-size: 10px;
+}
+.b-contriesLink:hover {
+	color: #000000;
+}
+.b-india {
+	margin-right: 16px;
+}
+.b-nepal {
+	margin-right: 14px;
+}
+.b-tibet {
+	margin-right: 13px;
+}
+.b-bhutan {
+	margin-right: 9px;
+}
+.b-sriLanka {
+	margin-right: 8px;
+}
+/* блок большая картинка*/
+.b-bigImg {							
+	border-top: 1px solid #128aa7;
+}
+/*блок контент*/
+/*блок меню*/
+.b-mainMenu {
+	float:left;
+	height: 28px;
+	width:100%;
+	line-height: 28px;
+	list-style:none;
+	font-size: 0;
+	background-color: #363636;
+	border-top:1px solid #cacbcb;
+	border-bottom: 1px solid #000000;
+}
+.b-mainMenu__item {
+	float:left;
+	position:relative;
+	display:block;
+}
+.b-mainMenu__item:hover {
+	height: 28px;
+	border-bottom: 1px solid #000000;
+}
+.b-menu__item1 {
+	margin-left: 57px;
+}
+.b-mainMenu__link {
+	display: block;
+}
+.b-horizontal1 {
+	
+	padding: 0 57px 0 10px;
+}
+.b-horizontal2 {
+	padding: 0 45px 0 10px;
+}
+.b-horizontal3 {
+	padding: 0 54px 0 10px;
+}
+.b-horizontal4 {
+	padding: 0 43px 0 10px;
+}
+.b-horizontal5 {
+	padding: 0 43px 0 10px;
+}
+.b-horizontal6 {
+	padding: 0 52px 0 10px;
+}
+.b-horizontal7 {
+	padding: 0 43px 0 10px;
+}
+/*выпадающее меню*/
+.b-smallMenu {	
+	position:absolute;	
+	background-color: #363636;
+	list-style:none;
+	left:-9999px;
+}
+.b-smallMenu__item {
+	float:none;
+	font-size: 0;
+}
+.b-smallMenu__link {
+	white-space:nowrap;
+	display:block;
+}
+.b-smallMenu__link1 {
+	padding: 0 45px 0 10px;
+}
+.b-smallMenu__link2 {
+	padding: 0 55px 0 10px;
+}
+.b-smallMenu__link3 {
+	padding: 0 25px 0 10px;
+}
+.b-mainMenu__item:hover .b-smallMenu {
+	left:0;
+}
+/*блок Информация*/
+.b-contentNews{
+	float: right;
+}
+.b-contentCenter {
+	margin: 0 auto;
+	width: 580px;
+}
+.b-info2 {
+	height: 257px;
+}
+.b-info3 {
+	height: 136px;
+}
+.b-contentInfo__link {
+	display: block;
+	line-height: 24px;
+}
+h2{
+	padding: 12px 0 9px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+}
+.b-news3{
+	height: 81px;
+}
+/*footer*/
+.b-footer{
+	padding: 12px 0 11px;
+	text-align: center;
+}
