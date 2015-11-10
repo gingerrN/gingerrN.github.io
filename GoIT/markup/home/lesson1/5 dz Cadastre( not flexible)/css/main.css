@@ -138,6 +138,9 @@ header {
 	margin-left: auto;
 	margin-right: auto;
 	width: 560px;
+}
+.small1,
+.small2{
 	background: rgba(0, 0, 0, 0.5);
 }
 .blackHead__name {
@@ -146,10 +149,10 @@ header {
 	text-align: center;
 	font-size: 24px;
 	color: #fff;
-	border-bottom: 2px solid #adb9a5;
+	margin-bottom: 2px;
 }
 .blackSmall__link {
-	margin: 36px 0 32px;
+	padding: 36px 0 32px;
 	display: block;
 }
 .blackSmall__ou {
