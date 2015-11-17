@@ -1,0 +1,782 @@
+﻿/* общие*/
+.b-conteiner,
+.b-submit__choose,
+.b-footer,
+.b-footer__site {
+	margin: 0 auto;
+}
+.b-company_1,
+.b-company_4 {
+	margin: 0 12px 0 0;
+}
+.b-company_2,
+.b-company_5,
+.b-company_6 {
+	margin: 0 13px 0 0;
+}
+.b-company_3,
+.b-company_7 {
+	margin: 0 15px 0 0;
+}
+.b-unit2,
+.b-unit3 {
+	margin: 15px 29px 0 0;
+}
+.b-unit5,
+.b-unit6 {
+	margin: 25px 29px 0 0;
+}
+.b-unit8,
+.b-unit9 {
+	margin: 26px 29px 29px 0;
+}
+.b-searchForma__avto,
+.b-searchForma__tire,
+.b-searchForma__disc,
+.b-centralSection  {
+	position: relative;
+}
+.b-productCatalog,
+.b-productBrend,
+.b-searchAvto__left,
+.b-searchAvto__right,
+.b-searchAvto__search {
+	position: absolute;
+}
+.b-telefon__img, 
+.b-telefon__number,
+.b-navi__map,
+.b-navi__leter,
+.b-navi__home,
+.b-menu__item,
+.b-footer__item,
+.b-unit__link,
+.b-company {
+	display: inline-block;
+}
+.clearfix:after,
+.b-forma__img,
+.b-button__entrance,
+.b-button__registration,
+.b-menu__link,
+.b-searchAvto__line,
+.b-searchDisc__line,
+.b-search__link,
+.b-searchTire__line,
+.b-searchtire__checkbox,
+.b-product__link,
+.b-checkbox__line,
+.b-submit__choose,
+.b-footer__link {
+	display: block;
+}
+.b-searchTire__block,
+.b-header__navi,
+.b-searchAvto__block,
+.b-searchDisc__block,
+.b-searchDisc__right {
+	float: right;
+}
+.b-header__telefon,
+.b-header__forma *,
+.b-header__forma, 
+.b-searchForma__avto,
+.b-searchForma__tire,
+.b-searchForma__disc,
+.b-menu,
+.b-searchAvto__line,
+.b-searchTire__line,
+.b-searchDisc__left  {
+	float: left;
+}
+.b-navi__home,
+.b-navi__map {
+	width: 14px;
+}
+.b-company_3,
+.b-company_5 {
+	width: 77px;
+}
+.b-searchAvto__left,
+.b-searchAvto__right {
+	width: 177px;
+}
+
+.b-left__name,
+.b-right__name,
+.b-telefon__number,
+.b-searchAvto__name,
+.b-searchAvto__line,
+.b-searchDisc__line,
+.b-search__link,
+.b-searchTire__name,
+.b-searchTire__line,
+.b-searchDisc__name,
+.b-product__link:hover,
+.b-unit__price,
+.b-footer__link,
+.b-site__text   {
+	font-family: Arial, sans-serif;
+}
+.b-forma__psw,
+.b-forma__forgetPsw,
+.b-button__entrance,
+.b-button__registration,
+.b-product__link,
+.b-nameCatalog__text,
+.b-productHeader__link,
+.b-checkbox__text,
+.b-unit {
+	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
+}
+.b-search__link,
+.b-product__link:hover,
+.b-unit__price {
+	font-style: italic;
+}
+.b-forma__psw,
+.b-header__telefon,
+.b-menu,
+.b-nameCatalog,
+.b-productHeader,
+.b-unit__img,
+.b-tireCompany,
+.b-footer__menu {
+	font-size: 0;
+}
+.b-left__name,
+.b-right__name,
+.b-searchAvto__line,
+.b-searchTire__line,
+.b-site__text {
+	font-size: 10px;
+}
+.b-forma__psw input,
+.b-button__entrance,
+.b-button__registration,
+.b-shoppingBasket__text,
+.b-shoppingBasket__sum,
+.b-submit__choose {
+	font-size: 11px;
+}
+.b-searchtire__checkbox,
+.b-forma__forgetPsw,
+.b-searchAvto__name,
+.b-searchTire__name,
+.b-searchDisc__name,
+.b-footer__link  {
+	font-size: 12px;
+}
+.b-nameCatalog__text,
+.b-product__link,
+.b-unit_marking,
+.b-checkbox__text  {
+	font-size: 13px;
+}
+.b-productHeader__link,
+.b-menu__link,
+.b-search__link,
+.b-product__link:hover {
+	font-size: 14px;
+}
+.b-button__entrance,
+.b-button__registration,
+.b-menu__link:hover {
+	color: #fff;
+}
+.b-searchAvto__line,
+.b-searchTire__line,
+.b-searchDisc__line {
+	color: #000000;
+}
+.b-product__link,
+.b-checkbox__text {
+	color: #465961;
+}
+.b-nameCatalog, 
+.b-productHeader__link,
+.b-unit__price {
+	color: #114165;
+}
+.b-button__entrance:hover,
+.b-button__registration:hover,
+.b-product__link:hover,
+.b-footer__link:hover {
+	text-decoration: underline;
+}
+.b-productHeader__link,
+.b-menu__link,
+.b-search__link,
+.b-productHeader__link,
+.b-product__link,
+.b-unit__link,
+.b-footer__link {
+	text-decoration: none;
+}
+.b-product__link:hover,
+.b-left__name,
+.b-right__name,
+.b-searchAvto__name,
+.b-searchDisc__name,
+.b-searchTire__name,
+.b-unit__price {
+	font-weight: bold;
+}
+.b-shoppingBasket__img,
+.b-nameCatalog__img,
+.b-productHeader__img {
+	vertical-align: middle;
+}
+.b-telefon__img, 
+.b-telefon__number {
+	vertical-align: bottom;
+}
+.b-menu,
+.b-footer__menu  {
+	list-style: none;
+}
+.b-header__forma,
+.b-menu__link:hover,
+.b-submit__choose {
+	background: #1f6787; /* Old browsers */
+    background: -moz-linear-gradient(top,  #1f6787 0%, #0c3357 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #1f6787 0%,#0c3357 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #1f6787 0%,#0c3357 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1f6787', endColorstr='#0c3357',GradientType=0 ); /* IE6-9 */ 
+}
+.b-company_1,
+.b-company_2,
+.b-company_3,
+.b-company_4,
+.b-company_5,
+.b-company_6,
+.b-company_7,
+.b-company_8 {
+	background-image: url(../img/firms.png);
+}
+.b-navi__home:hover,
+.b-navi__map:hover,
+.b-navi__leter:hover {
+	border-bottom: 1px solid #76848a;
+}
+.b-menu__link:hover,
+.b-submit__choose {
+	border-radius: 10px;
+}
+.b-nameCatalog,
+.b-submit__choose {
+	box-shadow: 1px 1px 3px #bfbfbf;
+}
+.b-header__navi,
+.b-header__forma {
+	box-shadow: 1px 1px 5px #b4b4b4;
+}
+.clearfix:after {
+	content: "";
+	clear: both;
+}
+.b-searchForma__avto,
+.b-searchForma__tire,
+.b-searchForma__disc {
+	margin-right: 11px;
+	height: 135px;
+	border: 1px solid #b4b4b5;
+	border-radius: 17px;
+	box-shadow: 1px 1px 5px #838485;
+}
+.b-left__name,
+.b-right__name {
+	margin-bottom: 5px;
+	color: #154467;
+}
+.b-forma__login,
+.b-forma__parol {
+	padding: 0 0 0 5px;
+	width: 113px;
+	height: 16px;
+	line-height: 16px;
+	color: #97a2a6;
+	border:1px solid #97a2a6;
+	border-radius: 2px;
+	outline: 0;
+}
+.b-searcchAvto_width2,
+.b-searcchDisc_width5 {
+	width: 55px;
+	border: 1px solid #9f9f9f;
+}
+.b-navi__home,
+.b-navi__map,
+.b-navi__leter {
+	height: 10px;
+	background-image: url(../img/navi.png);
+}
+/*конец общие*/
+
+
+/*центральный блок*/
+.b-conteiner {
+	width: 916px;
+}
+/*шапка */
+.b-conteiner__header {
+	margin-bottom: 6px;
+	padding-top: 17px;
+	height: 31px;
+}
+/* телефоны */
+.b-header__telefon {
+	margin: 5px 16px 0 0;
+}
+.b-telefon__number {
+	font-size: 18px;
+	color: #5e696d;
+}
+/*форма */
+.b-header__forma {
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #a6c3cf;
+    border-radius: 5px;
+   /*-webkit-box-shadow: 0 4px 4px -4px #777;
+       -moz-box-shadow: 0 4px 4px -4px #777;
+            box-shadow: 0 4px 4px -4px #777;*/
+}
+.b-forma__img {
+	margin: 4px 3px 3px 7px;
+}
+.b-forma__login {
+	margin: 3px 6px 4px 0;
+}
+.b-forma__parol {
+	margin: 3px 8px 4px 0;
+}
+.b-button__entrance {
+	margin: 8px 0 7px 0;
+	padding: 0 6px 0 0;
+	height: 10px;
+	line-height: 10px;
+	border-right: 1px solid #d2d8dd;
+}
+.b-button__registration {
+	margin: 0 21px 0 5px;
+}
+.b-forma__forgetPsw {
+	margin-right: 10px;
+	color: #bfbfbf;
+}
+.b-forma__forgetPsw:hover {
+	color: #b33835;
+}
+/*навигация */
+.b-header__navi {
+	margin: 2px 12px 0 0; 
+	height: 19px;
+	line-height: 19px;
+	border: 1px solid #c1c8cb;
+	border-radius: 8px;
+}
+.b-navi__home {
+	margin: 0 0 0 5px;
+	background-position: 0 -1px;
+}
+.b-navi__map {
+	background-position: -20px 0;
+}
+.b-navi__leter {
+	margin-right: 7px;
+	width: 13px;
+	background-position: -42px 0;
+}
+.b-number1 {
+	padding: 0 7px 0 4px;
+}
+/*большая картинка*/
+.b-bigImg {
+	margin: 0 6px 6px 1px;
+}
+/*меню*/
+.b-nav__menu {
+    background: #4d5663; /* Old browsers */
+    background: -moz-linear-gradient(top,  #4d5663 0%, #010101 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #4d5663 0%,#010101 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #4d5663 0%,#010101 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d5663', endColorstr='#010101',GradientType=0 ); /* IE6-9 */
+    border: 1px solid #0a1030;
+    border-radius: 4px;
+    box-shadow: 1px 1px 5px #50525e;
+}
+.b-menu {
+	margin-left: 125px;
+	height: 32px;
+	line-height: 32px;
+}
+.b-menu__link {
+	color: #b1bcc0;
+}
+.b-menu__link:hover {
+	height: 25px;
+	line-height: 25px;
+}
+.b-link__block1 {
+	padding: 0 18px 0 21px;
+}
+.b-link__block2 {
+	padding: 0 15px 0 16px;
+}
+.b-link__block3 {
+	padding: 0 15px 0 15px;
+}
+.b-link__block4 {
+	padding: 0 13px 0 15px;
+}
+.b-link__block5 {
+	padding: 0 14px 0 14px;
+}
+.b-item__block6 {
+	padding: 0 14px 0 72px;
+}
+.b-shoppingBasket__img {
+	padding: 0 9px 8px 0;
+}
+.b-shoppingBasket__text{
+	color: #929b9f;
+}
+.b-shoppingBasket__sum {
+	color: #0d5a8f;
+}
+.b-sum1 {
+	padding-right: 14px;
+}
+.b-sum2 {
+	padding-left: 11px;
+}
+/* 3 формы поиска*/
+/* 3форма поиска по авто*/
+.b-searchForma {
+	margin: 11px 0 13px;
+}
+.b-searchForma__avto {
+	margin-left: 5px;
+	width: 414px;
+	height: 135px;
+}
+.b-searchAvto__name {
+	margin: 2px auto 0;
+	width: 155px;
+	color: #154467;
+}
+.b-searchAvto__right {
+	top: 8px;
+	right: 13px;
+}
+.b-searchAvto__left {
+	top: 8px;
+	left: 18px;
+}
+.b-left__name {
+	padding-left: 7px;
+}
+.b-right__name {
+	padding: 0 7px 0 132px;
+}
+.b-searchAvto__line {
+	margin-bottom: 5px;
+}
+.b-line_big1 {
+	padding-top: 3px;
+	height: 14px;
+}
+.b-line_big2 {
+	padding-top: 7px;
+	/*padding-top: 10px;*/
+	height: 13px;
+}
+.b-line_short {
+	padding-top: 3px;  /*? 481*/
+	height: 17px;
+	line-height: 8px;
+}
+.b-line_grey {
+	color: #77858b;
+}
+.b-searchAvto__block {
+	margin-bottom: 5px;
+}
+.b-searcchAvto_width1 {
+	width: 100px;
+	border: 1px solid #9f9f9f;
+}
+.b-searcchAvto_width2 {
+	margin-right: 45px;
+}
+.b-searchAvto__search {
+	bottom: 5px;
+	right: 19px;
+	width: 50px;
+}
+.b-search__link {
+	color: #154467;
+	border-bottom: 2px solid #99a6b3;
+}
+/* форма поиска шин*/
+.b-searchForma__tire {
+	width: 192px;
+}
+.b-searchForma__tire form {
+	padding-left: 14px;
+}
+.b-searchTire__name {
+	margin: 6px  0 5px 13px;
+	width: 155px;
+	color: #154467;
+}
+.b-searchTire__line {
+	margin-bottom: 5px;
+	width: 36px;
+}
+.b-line_big3{
+	margin-left: 5px;
+	text-align: right;
+}
+.b-searchTire__block {
+	margin: 0 14px 6px 0;
+	width: 119px;
+}
+.b-searcchAvto_width3 {
+	width: 50px;
+	border: 1px solid #9f9f9f;
+}
+.b-searcchAvto_width4 {
+	width: 43px;
+	border: 1px solid #9f9f9f;
+}
+/* форма поиска дисков*/
+.b-searchForma__disc {
+	width: 266px;
+}
+.b-searchDisc__left {
+	margin: 6px  0 0  13px;
+	width: 166px;
+}
+.b-searchDisc__name {
+	padding-bottom: 5px;
+	color: #154467;
+}
+.b-searchDisc__line {
+	margin-bottom: 3px;
+	font-size: 9px;
+}
+.b-searchDisc__right {
+	margin-top: 3px;
+	padding: 3px 13px 0 10px;
+	width: 60px;
+	border-left: 1px solid #bdc6ca;
+}
+.b-searchDisc__block {
+	padding: 0 10px 14px 0;
+	width: 58px;
+}
+.b-block_last {
+	width: 58px;
+}
+.b-searcchDisc_width6 {
+	margin-bottom: 7px;
+	height: 16px;
+}
+/* центральная секция каталок, контенкт, брендвы*/
+/*секция каталог*/
+.b-productCatalog {
+	top: 3px;
+	left: 0;
+	width: 185px;
+}
+.b-nameCatalog {
+	margin-bottom: 13px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #8c969a;
+	border-radius: 14px;
+}
+.b-nameCatalog__img {
+	padding: 0 5px 10px 2px;
+}
+.b-productHeader {
+	width: 148px;
+	height: 25px;
+	line-height: 25px;
+	border: 1px solid #8c969a;
+	border-radius: 14px;
+}
+.b-productHeader_left {
+	margin-left: 2px;
+	/*margin-bottom: 8px;*/
+}
+.b-productHeader_right {
+	margin: 0 0 10px 15px;
+}
+.b-productHeader__img {
+	padding: 0 5px 10px 4px;
+}
+.b-product__link {
+	padding-left: 37px;
+	line-height: 27px;
+	letter-spacing: -0.2px;
+}
+.b-product__link:hover {
+	color: #0c3256;
+}
+.b-product__link:before {
+	content: url(../img/name.png);
+	padding-right: 4px;
+}
+.b-product__link:hover:before {
+	content: url(../img/nameHover.png);
+}
+/*секция контенкт*/
+.b-productContent {
+	margin: 0 auto 38px ;
+	width: 526px;
+    background: #e4e7e8; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e4e7e8 0%, #93a7b0 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #e4e7e8 0%,#93a7b0 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #e4e7e8 0%,#93a7b0 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4e7e8', endColorstr='#93a7b0',GradientType=0 ); /* IE6-9 */
+}
+.b-unit__link {
+	width: 136px;
+	text-align: center;
+}
+.b-unit__link:hover {
+	box-shadow: 0 0 8px #7295b6;
+}
+.b-unit_name {
+	font-size: 15px;
+	color: #206988;
+}
+.b-unit_marking {
+	color: #1f2528;
+}
+.b-unit__img {
+	margin-top: 2px;
+	background-color: #fff;
+	border: 1px solid #a7b1b4;
+	border-radius: 6px;
+}
+.b-img__object {
+	padding: 4px 0 5px 0 ;
+}
+.b-unit__price {
+	padding-top: 5px;
+	font-size: 16px;
+}
+.b-unit1 {
+	margin: 15px 29px 0 23px;
+}
+.b-unit4 {
+	margin: 25px 29px 0 23px;
+}
+.b-unit7 {
+	margin: 26px 29px 29px 23px;
+}
+/*секция брендвы*/
+.b-productBrend {
+	top: 1px;
+	right: 4px;
+	width: 185px;
+}
+.b-checkbox__line {
+	padding: 0 0 13px 26px;
+}
+.b-checkbox__indent {
+	margin: 0;
+}
+.b-checkbox__text {
+	padding-left: 14px;
+}
+.b-submit__choose {
+	height: 24px;
+	width: 80px;
+	color: #e5e9ea;
+    border: 1px solid #a7abae;
+	outline: none;
+}
+.b-submit__choose:active {
+	border: 1px solid #0a1030;
+	box-shadow: 0 0 8px #689bcc;
+}
+/*блок  картинки-ссылки на фирмы*/
+.b-tireCompany{
+	margin: 0 auto 25px;
+	width: 676px;
+	height: 28px;
+}
+.b-company {
+	height: 28px;
+	border-bottom: 1px solid #fff;
+}
+.b-company:hover {
+	border-bottom: 1px solid #939ea2;
+}
+.b-company_1 {
+	width: 83px;
+	background-position: 0 0;
+}
+.b-company_2 {
+	width: 97px;
+	background-position: -95px 0;
+}
+.b-company_3 {
+	background-position: -205px 0;
+}
+.b-company_4 {
+	width: 59px;
+	background-position: -297px 0;
+}
+.b-company_5 {
+	background-position: -368px 0;
+}
+.b-company_6 {
+	width: 57px;
+	background-position: -458px 0;
+}
+.b-company_7 {
+	width: 61px;
+	background-position: -528px 0;
+}
+.b-company_8 {
+	width: 72px;
+	background-position: -604px 0;
+}
+/*footer*/
+.b-footer {
+	width: 907px;
+	height: 100px;
+	background-color: #213a4d;
+	border: 1px solid #242c3e;
+}
+.b-footer__menu {
+	margin: 12px auto 17px;
+	width: 320px;
+}
+.b-footer__item {
+	border-left: 1px solid #afb7bc; 
+}
+.b-footer__item:first-child{
+	border: none;
+}
+.b-footer__link {
+	padding: 0 12px;
+}
+.b-footer__site {
+	width: 155px;
+}
+.b-link_blue {
+	color: #52abcb;
+}
+.b-link_gray {
+	color: #bec6c9;
+}
+.b-site__text {
+	color: #7f4740;
+}
