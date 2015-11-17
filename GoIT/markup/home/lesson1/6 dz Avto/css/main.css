@@ -35,6 +35,7 @@
 .b-searchForma__disc,
 .b-centralSection  {
 	position: relative;
+	overflow: hidden;
 }
 .b-productCatalog,
 .b-productBrend,
