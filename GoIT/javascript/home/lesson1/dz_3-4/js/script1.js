@@ -36,7 +36,7 @@ var myTest = {
 }
 
 myTest.createAnyElement('body', 'div', 'container', '');
-myTest.createAnyElement('div', 'h2', 'text-uppercase', 'Тест по програмированию');
+myTest.createAnyElement('div', 'h2', 'text-uppercase', 'Тест по программированию');
 myTest.createAnyElement('div', 'form', 'myForm', '');
 
 for (var i = 1; i <= 3; i++) {
