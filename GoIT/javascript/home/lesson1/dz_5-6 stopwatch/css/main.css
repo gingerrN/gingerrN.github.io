@@ -1,0 +1,30 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Noto+Sans);
+.block__inMain {
+	margin: 100px auto 0;
+	width: 500px;
+	height: 200px;
+	text-align: center;
+	background: #f0eee8;
+	border-radius: 10px;
+	box-shadow: 0 0 0 1px #f54545,
+				0 0 0 2px #f6f5f2,
+				0 0 0 10px #456549,
+				0 0 0 12px #f6f5f2,
+				0 0 0 13px #f54545;
+}
+.figures {
+	padding: 50px 0 30px;
+}
+.figures__hour,
+.figures__minute,
+.figures__second,
+.figures__millisecond {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 40px;
+	color: #2e4831;
+}
+.{}
+.{}
+.{}
+.{}
+.{}
