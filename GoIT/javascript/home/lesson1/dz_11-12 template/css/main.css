@@ -1,0 +1,116 @@
+﻿@import url(https://fonts.googleapis.com/css?family=Arimo:400,700&subset=latin,cyrillic);
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+* {
+  	margin: 0;
+  	padding: 0;
+}
+body {
+    background-color: #d0dfe5;
+}
+ /* task 1 */
+.wrapper {
+    margin: 30px auto 0;
+    padding: 70px 0;
+    width: 1307px; 
+    background-color: #fff;
+    box-shadow: 0 0 30px #6e9db0;
+}
+.wrapper__task,
+.carousel__text {
+    text-align: center;
+    font-family: 'Arimo', sans-serif;
+    font-size: 25px;
+    color: #0d4c0c;
+}
+.wrapper__task {
+    padding: 20px 0;
+    font-weight: bold;
+}
+/* стрелки лево право */
+.wrapper__emptyArrow {
+    margin-top: 173px;
+    float: left;
+    width: 132px;
+    height: 101px;
+}
+.arrow {
+    margin: 0 auto;
+    width: 88px ;
+    height: 67px;
+    vertical-align: top;
+    background-image: url(../img/lft-rght.png);
+}
+.arrow_left {
+    background-position: 0 0;
+}
+.arrow:hover {
+    background-image: url(../img/lft-rght_hover.png);
+}
+.arrow_right {
+    background-position: -112px 0;
+}
+/* карулель */
+.wrapper__hider {
+    float: left;
+    width: 1042px;
+    overflow: hidden;
+}
+.hider__carousel {
+    position: relative;
+    padding: 0;    
+    list-style: none;
+    width: 10000px;
+}
+.carousel__item {
+    display: block;
+    margin-right: 25px;
+    float: left;
+}
+.carousel__img {
+    max-width: 670px;
+}
+
+/*  task 2 */
+.wrapper__template {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+.template__title,
+.template__why,
+.template__curs,
+.template__inform {
+    text-align: center;
+}
+.template__img{
+    margin: 25px auto;
+    display: block;
+    width: 278px;
+    height: 253px;
+}
+.template__curs{
+   
+}
+.template__why{
+    font-size: 20px;
+    font-weight: bold;
+}
+.template__list{
+    margin: 0 auto;
+    padding-left: 25px;
+    display: block;
+    width: 700px;
+    line-height: 30px;
+}
+.template__inform{
+    padding:  0  0 0 40px;
+    line-height: 20px;
+}
+/* .wrapper_line2 {
+    margin-top: 30px;
+} */
