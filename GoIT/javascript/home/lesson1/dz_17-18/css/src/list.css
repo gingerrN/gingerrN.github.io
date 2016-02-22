@@ -1,0 +1,36 @@
+/** list **/
+.line_four {
+    padding: 30px 0 50px 0;
+    font-family: 'Open Sans', sans-serif;
+}
+.four__form {
+    padding: 0 0 0 90px;
+    color: #083498;
+}
+.form__head {
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.form__select {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    border-color: #083498;
+}
+.form__choose {
+    text-align: center;
+    font-size: 15px;
+}
+.choose__fish {
+    font-size: 17px;
+    font-style: italic;
+}
+.form__chooseImg {
+    margin: 20px 90px 10px;
+    border: 10px solid #fff;
+    width: 600px;
+    height: 379px;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #083498;
+}
