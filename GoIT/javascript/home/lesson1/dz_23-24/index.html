@@ -3,28 +3,30 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+   	<link rel="stylesheet" href="css/reset.css">
    	<link rel="stylesheet" href="css/style.css">
-   <!-- <script data-main="app/app" src="app/require.js"></script> -->
-   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-   <script src="js/script.js"></script>
-    <script src="js/tmpl.js"></script>
+  	 <script data-main="app/app" src="app/require.js"></script> 
+  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+   	<script src="js/script.js"></script>
+    <script src="js/tmpl.js"></script>-->
 </head>
 <body>
-	<script type="text/template" id="wrapper__template">
-		<div class="wrapper">
-			<ul class="item__list"></ul>
-			<div class="controlls">
-				<input type="text" class="item__value">
-				<button class="item__add">add</button>
+	<h1 class="wrapper__head">ToDo-list:</h1>
+		<script type="text/template" id="wrapper__template">
+			<div class="wrapper">
+				<ul class="item__list"></ul>
+				<div class="controlls">
+					<input type="text" class="item__value">
+					<button class="item__add">add</button>
+				</div>
 			</div>
-		</div>
-	</script>
-
-	<script type="text/template" id="list__template">
-		<% for (var i = 0; i < data.length; i++) { %>
-			<li><% data[i] %><span class="item__delete">x</span></li>
-		<% }; %>	
-	</script>
+		</script>
+		
+		<script type="text/template" id="list__template">
+			<% for (var i = 0; i < data.length; i++) { %>
+				<li><span data-value="<%= data[i] %>" class="item__edit">edit</span> <span data-value="<%= data[i] %>" class="item__delete">x</span><span class="item__content"><%= data[i] %></span></li>
+			<% }; %>	
+		</script>
 
 </body>
 </html>

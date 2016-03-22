@@ -1,6 +1,6 @@
 requirejs.config({
     paths: {
-        'jquery': 'https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery'
+        'jquery': 'https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery'
     },
     shim: {
         'jquery': {
@@ -10,14 +10,15 @@ requirejs.config({
 });
 
 require(
-    [
+    [   'jquery',
         'tmpl',
         'model',
         'view',
-        'controller',
-        'jquery'
+        'controller'
+        
     ],
-    function ( tmpl, Model, View, Controller, $) {
+    function ( jquery, tmpl, Model, View, Controller) {
+        
         $(function () {
             var firstToDoList = ['Learn HTML', 'Learn CSS', 'Learn JS'];
             var model = new Model(firstToDoList);

@@ -13,9 +13,9 @@ define(
                     return;
                 }
 
-            self.data.push(item);
+                self.data.push(item);
                 return self.data;
-             };
+            };
 
 
             self.removeItem = function (item) {
@@ -25,10 +25,10 @@ define(
                     return;
                 }
 
-                self.data.splice(index, 1);
-                    return self.data;
-                };
-            }
+            self.data.splice(index, 1);
+            return self.data;
+            };
+        }
 
         return Model;
     }

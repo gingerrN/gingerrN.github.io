@@ -11,7 +11,8 @@ define(
                 $('body').append(wrapper);
                 self.elements = {
                     input: $('.item__value'),
-                 addBtn: $('.item__add'),
+                    addBtn: $('.item__add'),
+                    editItem: $('.item__edit'),
                     listContainer: $('.item__list')
                 };
                 self.renderList(model.data);
@@ -26,7 +27,7 @@ define(
 
             init();
         }
-
+        
         return View;
     }
 );

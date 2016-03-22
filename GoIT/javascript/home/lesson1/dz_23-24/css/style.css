@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Neucha&subset=latin,cyrillic);
+body {
+	background-color: #FBFBEF;
+}
+.wrapper__head {
+	margin: 100px auto 0;
+	display: block;
+	width: 200px;
+	font-family: 'Neucha', cursive;
+	font-size: 50px;
+	color: #2E3B0B;
+}
+.wrapper {
+	margin: 50px auto 0;
+	padding: 50px;
+	position: relative;
+	width: 300px;
+	height: 400px;
+	text-align: left;
+	font-family: 'Neucha', cursive;
+	font-size: 20px;
+	color: #2E3B0B;
+	border-radius: 15px;
+	background-color: #FBFBEF;
+	box-shadow: 0 0 0 13px #F2F5A9;
+}
+.item__list li {
+	margin: 20px 0 0 0;
+	border-bottom: 2px solid #F2F5A9;
+}
+.item__delete{
+	
+}
+.controlls {
+	position: absolute;
+	bottom: 50px;
+}
+.item__value {
+	padding: 0 10px;
+	width: 240px;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	border-radius: 10px;
+	background-color: #F2F5A9;
+	outline: none;
+}
+.item__edit,
+.item__delete {
+	color: #751AD5;
+	font-size: 15px;
+}
+.item__edit:hover,
+.item__delete:hover {
+    cursor: pointer;
+}
+.item__delete {
+	margin-right: 30px;
+}
+.item__add {
+	text-align: center;
+	font-family: 'Neucha', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	color: #2E3B0B;
+	border-radius: 10px;
+	background-color: #F2F5A9;
+	outline: none;
+}
+.item__add:hover,
+.item__button:hover {
+	background-color: #E3F6CE;
+}
+.item__button {
+	margin-left: 5px;
+	text-align: center;
+	font-family: 'Neucha', cursive;
+	font-size: 15px;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: #F2F5A9;
+	outline: none;
+}
+.item__text {
+	padding: 0 10px;
+	height: 30px;
+	line-height: 30px;
+	border: none;
+	border-radius: 10px;
+	background-color: #F2F5A9;
+	outline: none;
+}
+.other {
+	pointer-events: none;
+}
