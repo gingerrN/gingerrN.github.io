@@ -3,24 +3,14 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+	<![endif]-->
 	<link rel="stylesheet" href="css/reset.css">
 	<link rel="stylesheet" href="styles/style.css">
-	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
-    <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
-  	<script src="js/es-shims.js"></script>
-    <!--  Carousel -->
+	<link rel="stylesheet" href="css/ie_style.css">
 	<link rel="stylesheet" type="text/css" href="css/jcarousel.transitions.css">
-	<script type="text/javascript" src="js/modernizr.js"></script>
-	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
-    <script type="text/javascript" src="js/jcarousel.transitions.js"></script>
-      <!--  masonry-->
- 	<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
-   <script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
-   <script src="js/searchIdeas.js"></script>
 	<title>Holiday dreams</title>
 </head>
 <body>
@@ -51,7 +41,7 @@
 	<div class="part part_2">
 		<div class="part__block part__block_2">
 			<!-- block__works Carousel -->
-			<div class="block__works">
+			<section class="block__works">
 				<header class="works__topic">
 					<h1 class="topic_line">How Urlaubsglück works?</h1>
 				</header>
@@ -105,9 +95,9 @@
                 		<a href="#" class="jcarousel-control-next"></a>
             		</div>
 				</div>
-			</div>
+			</section>
 			<!-- block__partners -->
-			<div class="block__partners">
+			<section class="block__partners">
 				<header class="works__topic">
 					<h1 class="topic_line">Meet a partner for your best holiday</h1>
 				</header>
@@ -144,37 +134,39 @@
 					</div>
 				</div>
 				<a href="#" class="partners__other">See other partners</a>
-			</div>
+			</section>
 			<!-- block__ideas -->
-			<div class="block__ideas">
-				<header class="works__topic">
-					<h1 class="topic_line">Discover holiday activity ideas</h1>
-				</header>
+			<section class="block__findImg">
+				<div class="block__ideas">
+					<header class="works__topic">
+						<h1 class="topic_line">Discover holiday activity ideas</h1>
+					</header>
 				<div class="ideas__holiday grid"></div>
-			</div>
-			<div class="block__searchPartners">
-				<header class="works__topic">
-					<h1 class="topic_line">Discover holiday activity ideas</h1>
-				</header>
-				<p class="searchPartners__slogan">Hi! What are your holiday interests?</p>
-				<form class="searchPartners__form clearfix" id="search__button" >
-					<input type="text" class="searchPartners__value" placeholder="Enter your interests">
-					<input type="submit" class="searchPartners__button" value="Search partners">
-				</form>
-			</div>
+				</div>
+				<div class="block__searchPartners">
+					<header class="works__topic">
+						<h1 class="topic_line">Discover holiday activity ideas</h1>
+					</header>
+					<p class="searchPartners__slogan">Hi! What are your holiday interests?</p>
+					<form class="searchPartners__form clearfix" id="search__button" >
+						<input type="text" class="searchPartners__value" placeholder="Enter your interests">
+						<input type="submit" class="searchPartners__button" value="Search partners">
+					</form>
+				</div>
+			</section>
 		</div>
 	</div>
 	<!-- part_3 -->
 	<footer class="part part_3">
 		<div class="part__block part__block_3 clearfix">
 			<a href="#" class="block__logo_ftr block__logo_center">URLAUBSGLÜCK</a>
-			<div class="block__nameNav block__logo_center clearfix">
+			<nav class="block__nameNav block__logo_center clearfix">
 				<a href="#" class="nameNav_main nameNav_main_first block__logo_center">Company</a>
 				<a href="#" class="nameNav nameNav_first">About</a>
 				<a href="#" class="nameNav">Contacts</a>
 				<a href="#" class="nameNav">Press</a>
 				<a href="#" class="nameNav">Blog</a>
-			</div>
+			</nav>
 			<a href="#" class="nameNav_main nameNav_main_left block__logo_center">Partners</a>
 			<div class="block__designed block__logo_center">
 				<p class="designed__by">Designed by</p>
@@ -182,5 +174,18 @@
 			</div>
 		</div>
 	</footer>
+
+
+	<script src="js/es-shims.js"></script>
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+    <!--  masonry-->
+ 	<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+   	<script src="https://npmcdn.com/imagesloaded@4.1/imagesloaded.pkgd.min.js"></script>
+    <!--  Carousel -->
+	<script type="text/javascript" src="js/modernizr.js"></script>
+	<script type="text/javascript" src="js/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="js/jcarousel.transitions.js"></script>
+   	<script src="js/searchIdeas.js"></script>
 </body>
 </html>

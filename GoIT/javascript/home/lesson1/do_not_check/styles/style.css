@@ -17,6 +17,10 @@
   src: local("тШ║"), url("../css/fonts/Montserrat-Regular.woff") format("woff"), url("../css/fonts/Montserrat-Regular.ttf") format("truetype"), url("../css/fonts/Montserrat-Regular.svg") format("svg");
   font-weight: normal;
   font-style: normal; }
+a:active,
+a:hover {
+  outline: 0; }
+
 a {
   text-decoration: none; }
 

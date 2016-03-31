@@ -25,6 +25,11 @@ $font-Montserrat: 'Conv_Montserrat-Bold', sans-serif;
 $font-RobotoL:'Conv_Roboto-Light', sans-serif;
 $font-RegMntsrt:'Conv_Montserrat-Regular', sans-serif;
 
+a:active,
+a:hover {
+  outline: 0;
+}
+
 a{
 	text-decoration: none;
 }
