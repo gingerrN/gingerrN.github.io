@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- script jquery -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.js"></script>
+     <!-- script for template -->
+    <script src="js/dist/template-script.js"></script>
+    <script src="js/dist/script1.js"></script>
+	<title></title>
+</head>
+<body>
+<div class="container">
+<!-- тест 1 -->
+	<div class="container__test_1">
+		<h5 class="container__text text-uppercase">Тест по заданию (проверка работает )</h5>
+		<script type="text/html" id="testList_1">
+			<h3 class="test__text text-uppercase"><%= nameFor %></h3>
+			<form class="myForm">
+
+				<h3 class="formTitle"><%= itemName1 %></h3>
+				<div class="checkbox">
+					<label class="answer1" type="undefined">
+						<input  name="forCounter" class="namecheckbox_1 <%= isCorrect11 %>" type="checkbox"><span class="bbb" type="undefined"><%= ansName11 %><br></span>
+					</label>
+				</div>
+				<div class="checkbox">
+					<label class="answer2" type="undefined">
+						<input  name="forCounter" class="namecheckbox_1 <%= isCorrect12 %>" type="checkbox"><span class="bbb" type="undefined"><%= ansName12 %><br></span>
+					</label>
+				</div>
+				<div class="checkbox">
+					<label class="answer3" type="undefined">
+						<input  name="forCounter" class="namecheckbox_1 <%= isCorrect13 %>" type="checkbox"><span class="bbb" type="undefined"><%= ansName13 %><br></span>
+					</label>
+				</div>
+	
+				<h3 class="formTitle"><%= itemName2 %></h3>
+				<div class="checkbox">
+					<label class="answer1" type="undefined">
+						<input name="forCounter" class="namecheckbox_2 <%= isCorrect21 %>" type="checkbox"><span class="bbb" type="undefined"><%= ansName21 %><br></span>
+					</label>
+				</div>
+				<div class="checkbox">
+					<label class="answer2" type="undefined">
+						<input name="forCounter" class="namecheckbox_2 <%= isCorrect22 %>" type="checkbox"><span class="bbb" type="undefined"><%= ansName22 %><br></span>
+					</label>
+				</div>
+				<div class="checkbox">
+					<label class="answer3" type="undefined">
+						<input name="forCounter" class="namecheckbox_2 <%= isCorrect23 %>" type="checkbox"><span class="bbb" type="undefined"><%= ansName23 %><br></span>
+					</label>
+				</div>
+				<h3 class="formTitle"><%= itemName3 %></h3>
+				<div class="checkbox">
+					<label class="answer1" type="undefined">
+						<input name="forCounter" class="namecheckbox_3 <%= isCorrect31 %>" type="checkbox"><span class="bbb" type="undefined"><%= ansName31 %><br></span>
+					</label>
+				</div>
+				<div class="checkbox">
+					<label class="answer2" type="undefined">
+						<input name="forCounter" class="namecheckbox_3 <%= isCorrect32 %>" type="checkbox"><span class="bbb" type="undefined"><%= ansName32 %><br></span>
+					</label>
+				</div>
+				<div class="checkbox">
+					<label class="answer3" type="undefined">
+						<input name="forCounter" class="namecheckbox_3 <%= isCorrect33 %>" type="checkbox"><span class="bbb" type="undefined"><%= ansName33 %><br></span>
+					</label>
+				</div>
+				<button class="myForm__btn " type="submit" id="btnId"><%= btnName %></button>
+			</form>
+	</script>
+	</div>
+
+
+<!-- тест 2 -->
+	<div class="container__test_2">
+	<h5 class="container__text text-uppercase">Тест написан с помощью цикла (проверка не работает )</h5>
+	<script type="text/html" id="testList_2">
+		<h3 class="test__text text-uppercase"><%= name %></h3>
+		<form class="test__myForm ">
+			<% for (var j = 0; j < 3; j++) { %>
+				<h3 class="myForm__title"><%= j+1 %><%= itemName %><%= j+1 %></h3>
+			    	<% for (var i = 0; i < 3; i++) { %>
+	                	<div class="checkbox">
+							<label class="checkbox__answer" type="undefined">
+								<input class="answer__namecheckbox namecheckbox" type="checkbox"><span class="namecheckbox__text bbb" type="undefined"><%= ansName %><%= i+1 %><br></span>
+							</label>
+						</div>
+	                <% } %>
+	        <% } %>
+		</form>
+	</script>
+	</div>
+	
+
+</div>
+
+</body>
+</html>

@@ -1,0 +1,130 @@
+/* menu */
+.line_five {
+    padding-bottom: 300px;
+}
+.mainMenu__item:hover, 
+.smallMenu__item:hover,
+.minMenu__item:hover,
+.microMenu__item:hover {
+    display: block;
+    background: #4263b0;
+    border-radius: 5px;
+}
+.mainMenu__link, 
+.smallMenu__link,
+.minMenu__link,
+.microMenu__link{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.five-mainMenu {
+    float:left;
+    height: 28px;
+    width:100%;
+    line-height: 28px;
+    list-style:none;
+    font-size: 0;
+    background-color: #1b4199;
+    border-top:1px solid #cacbcb;
+    border-bottom: 1px solid #000000;
+    border-radius: 5px;
+}
+.mainMenu__item {
+    float:left;
+    position:relative;
+    display:block;
+}
+.mainMenu__item:hover {
+    height: 28px;
+    border-bottom: 1px solid #000000;
+}
+.menu__item1 {
+    margin-left: 57px;
+}
+.mainMenu__link {
+    display: block;
+}
+.horizontal1 {
+    padding: 0 57px 0 10px;
+}
+.horizontal3 {
+    padding: 0 40px 0 10px;
+}
+.horizontal4 {
+    padding: 0 30px 0 10px;
+}
+.horizontal5 {
+    padding: 0 43px 0 10px;
+}
+.horizontal6 {
+    padding: 0 52px 0 10px;
+}
+.horizontal7 {
+    padding: 0 43px 0 10px;
+}
+/*выпадающее меню*/
+.smallMenu,
+.minMenu,
+.microMenu {  
+    position:absolute;  
+    background-color: #1b4199;
+    border-radius: 5px;
+    list-style:none;
+    left:-9999px;
+}
+.smallMenu__item,
+.minMenu__item,
+.microMenu__item {
+    border-top:1px solid #1b4199;
+    border-bottom: 1px solid #1b4199;
+    border-radius: 5px;
+}
+.smallMenu__item:hover,
+.minMenu__item:hover,
+.microMenu__item:hover {
+    border-top:1px solid #cacbcb;
+    border-bottom: 1px solid #000000;
+    border-radius: 5px;
+}
+.smallMenu__item,
+.minMenu__item,
+.microMenu__item {
+    float: none;
+    font-size: 0;
+}
+.smallMenu__link,
+.minMenu__link,
+.microMenu__link {
+    white-space: nowrap;
+    display: block;
+}
+.smallMenu a:hover{
+    color: #92f3cb;
+}
+.smallMenu__link2 {
+    padding: 0 39px 0 10px;
+}
+.smallMenu__link3,
+.minMenu__link,
+.microMenu__link {
+    padding: 0 25px 0 10px;
+}
+.mainMenu__item:hover .smallMenu {
+    left: 0;
+}
+.smallMenu__item:hover .minMenu1 {
+    left: 129px;
+    top: 2px;
+}
+.smallMenu__item:hover .minMenu3 {
+    left: 129px;
+    top: 60px;
+}
+.minMenu__item:hover .microMenu1,
+.minMenu__item:hover .microMenu3 {
+    left: 167px;
+    top: 60px;
+}

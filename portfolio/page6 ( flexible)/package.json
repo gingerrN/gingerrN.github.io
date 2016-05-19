@@ -1,0 +1,10 @@
+{
+  "name": "example-project",
+  "version": "0.1.0",
+  "main": "main_script.js",
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}
